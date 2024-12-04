@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "name": "Goddeti Rupeswar Reddy",
+      "email": "011rgr@gmail.com",
+      "password": "234567890",
+      "age": "2024-11-26",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "data": [
+    {
+      "username": "eswar",
+      "email": "011rgr@gmail.com",
+      "password": "Rupesh",
+      "gender": "male",
+      "preferences": "option2",
+      "terms": true,
+      "id": 1
+    },
+    {
+      "username": "eswarreddy",
+      "email": "011rgr@gmail.com",
+      "password": "rupesh",
+      "gender": "male",
+      "preferences": "option2",
+      "terms": "on",
+      "id": 2
+    },
+    {
+      "username": "Pavi",
+      "email": "pavi@gmail.com",
+      "password": "Pavithra",
+      "gender": "female",
+      "preferences": "vue",
+      "terms": true,
+      "id": 3
+    },
+    {
+      "username": "bala",
+      "email": "bala@gmail.com",
+      "password": "Pavithra",
+      "gender": "male",
+      "preferences": "React",
+      "terms": true,
+      "id": 4
+    },
+    {
+      "username": "bala",
+      "email": "bala@gmail.com",
+      "password": "Pavithra",
+      "gender": "male",
+      "preferences": "React",
+      "terms": false,
+      "id": 5
+    }
+  ],
+  "details": [
+    {
+      "name": "Goddeti Rupeswar Reddy",
+      "email": "011rgr@gmail.com",
+      "password": "234567890",
+      "age": "2024-11-20",
+      "id": 1
+    },
+    {
+      "name": "eswarreddy",
+      "email": "011rgr@gmail.com",
+      "password": "qwertyu",
+      "age": "2024-11-20",
+      "id": 2
+    }
+  ],
+"data1":{
+  "firstName": "John",
+  "lastName": "Doe",
+ "salary": "$100,000"
+},
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,80 @@
+/* Custom styles for the date picker */
+
+/* Change background color of the calendar */
+.react-datepicker {
+    border: 1px solid #e42e2e;
+    border-radius: 8px;
+    /* background-color: #c62222; */
+  
+  
+ 
+  }
+  
+  /* Highlight today's date */
+  .react-datepicker__day--today {
+    background-color: #ffeb3b;
+    color: #000;
+    border-radius: 50%;
+  }
+  
+  /* Style disabled dates (weekends and past dates) */
+  .react-datepicker__day--disabled {
+    color: #d3d3d3;
+    background-color: #f5f5f5;
+    cursor:not-allowed;
+  }
+  
+  /* Style weekends */
+  .react-datepicker__day--weekend {
+    color: #ff6347; /* Red for weekends */
+  }
+  
+  /* Add some padding inside the date cells */
+  .react-datepicker__day {
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Style for the header (month, year) */
+  .react-datepicker__header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 8px 0;
+    text-align: center;
+  }
+  
+  /* Style the month and year drop-downs */
+  .react-datepicker__current-month {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Change the hover effect for the dates */
+  .react-datepicker__day:hover {
+    background-color: #e3e3e3;
+    cursor: pointer;
+  }
+  
+  /* Custom style for the 'Today' button */
+  .react-datepicker__today-button {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .react-datepicker__today-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Change the style of the calendar popup */
+  .react-datepicker__triangle {
+    display: none; /* Hide the little triangle that appears at the top of the popup */
+  }
+  
