@@ -52,7 +52,7 @@ function AccountCom() {
                 </table>
             </div>
         </div>
-
+{/* //adeed */}
    </div>
    </>
   )
