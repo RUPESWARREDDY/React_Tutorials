@@ -1,7 +1,7 @@
-import React from 'react'
-// import { userContext } from '../../App'
+import React, { useContext } from 'react'
+import { userContext } from '../../App'
 function Componenta() {
-    // let context=useContext(userContext)
+    let context=useContext(userContext)
   return (
     <div>
         <h1>ComponentA</h1>

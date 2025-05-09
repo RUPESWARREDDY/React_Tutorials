@@ -31,4 +31,4 @@ const store=configureStore({
 })
 export default store
 export const {updateFullname,updateMobile,desposit,withdraw}=userSlice.actions
-export const {addTransaction}=transactionSlice.actions
+export const {addTransaction}=transactionSlice.actions   

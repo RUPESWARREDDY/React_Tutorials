@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import HOC from './HOC'
 export class HocHover extends Component {
   render() {
     let{count,increment}=this.props
@@ -10,5 +10,5 @@ export class HocHover extends Component {
     )
   }
 }
-HOC(HocHover)
-export default HocHover 
+
+export default HOC(HocHover) 

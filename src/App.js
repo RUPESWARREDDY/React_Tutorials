@@ -39,10 +39,13 @@ import HttpGet from "./Http/HttpGet";
 import HTTPPost from "./Http/HttpPost";
 import Account from "./React-reduxMain/Account";
 import RichTextEditor from "./RichTextEditor";
+import UseContext1 from "./Hooks/UseContext/UseContext1";
+import PatrentComponent from "./Hooks/UseCallBack/PatrentComponent";
+import CountdownTimer from "./countdown/CountDown";
 
 // import { BrowserRouter as Router, Routes,Route, Link} from "react-router-dom";
 // import Test67 from "./TodayTest/Func2";
-
+export const userContext=React.createContext()
 function App() {
 
   return (
@@ -83,8 +86,13 @@ function App() {
        */}
      {/* <Account/>
      <Form/> */}
-     <RichTextEditor/>
-    
+     {/* <RichTextEditor/> */}
+    {/* <userContext.Provider value='eswar'>
+      <UseContext1/>
+      </userContext.Provider> */}
+      {/* <PatrentComponent/> */}
+      {/* <RoutingTopic/> */}
+      <CountdownTimer/>
      </div>
   );
 }
