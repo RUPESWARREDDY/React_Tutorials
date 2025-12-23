@@ -42,6 +42,7 @@ import RichTextEditor from "./RichTextEditor";
 import UseContext1 from "./Hooks/UseContext/UseContext1";
 import PatrentComponent from "./Hooks/UseCallBack/PatrentComponent";
 import CountdownTimer from "./countdown/CountDown";
+import HookForm from "./ReactHookForm/HookForm";
 
 // import { BrowserRouter as Router, Routes,Route, Link} from "react-router-dom";
 // import Test67 from "./TodayTest/Func2";
@@ -92,7 +93,8 @@ function App() {
       </userContext.Provider> */}
       {/* <PatrentComponent/> */}
       {/* <RoutingTopic/> */}
-      <CountdownTimer/>
+      {/* <CountdownTimer/> */}
+      <HookForm/>
      </div>
   );
 }
